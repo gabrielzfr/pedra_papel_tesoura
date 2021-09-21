@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(35deg, #1F2D40, #3D5A73);
+    background-attachment: fixed;
+    color: #AEB5BF;
+}
+Header > h1 {
+    color: #D9A566;
+    font-size: 2.4rem;
+}
+
+p {
+    color: #8C513B;
+    font-size: 1.8rem;
+
+}
+.choicebuttons {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 92%;
+    background-color: transparent;
+    border: 1px solid #D9A566; 
+    border-radius: 100%;
+    cursor: pointer;
+}
+.choicebuttons:hover {
+    background-color: blanchedalmond;
+    transition: 350ms;
+}
+input#pedra {
+    
+    background-image: url(imagens/pedra-p.png) ;
+    
+}
+
+input#papel {
+    background-image: url(imagens/papel-p.png);
+}
+
+input#tesoura {
+    background-image: url(imagens/tesoura-p.png) ;
+}
+
+img#imgcomputer {
+    transform: rotateY(180deg);
+}
+
+main #playinput {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+
+    font: bold 1.5rem 'Special Elite', cursive, Arial, Helvetica, sans-serif;
+
+    padding: 20px;
+
+    border: none;
+    border-radius: 25%;
+
+    cursor: pointer;
+    
+}
+
+main #playinput:hover {
+    background-color: rgb(200, 200, 200);
+}
